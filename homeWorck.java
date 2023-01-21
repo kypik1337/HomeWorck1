@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class homeWorck {
     public static void main(String[] args) {
         // Введите от ex1() до ex2()
-
+        ex5();
 
 
     }
@@ -23,7 +23,7 @@ public class homeWorck {
             b = random.nextInt(69);
             result = a + b;  
             if (result == 69){
-                System.out.println(a + "+" + b + "=" + result);
+                System.out.println(a + " + " + b + " = " + result);
                 System.out.println("Вот ваше решение");
                 break;
             }
