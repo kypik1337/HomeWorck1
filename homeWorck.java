@@ -1,8 +1,33 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class homeWorck {
     public static void main(String[] args) {
-        ex4();
+        // Введите от ex1() до ex2()
+
+
+
+    }
+    static void ex5() {
+        /*
+         * * Задано уравнение вида q + w = e, q, w, e >= 0. Некоторые цифры могут быть заменены знаком вопроса, 
+         * например 2? + ?5 = 69. Требуется восстановить выражение до верного равенства. 
+         * Предложить хотя бы одно решение или сообщить, что его нет.
+         */
+        int a;
+        int b;
+        int result = 69;
+        Random random = new Random();
+        for (;;) {
+            a = random.nextInt(69);
+            b = random.nextInt(69);
+            result = a + b;  
+            if (result == 69){
+                System.out.println(a + "+" + b + "=" + result);
+                System.out.println("Вот ваше решение");
+                break;
+            }
+        }
     }
     static void ex4(){
         //простой калькулятор + - / * 
@@ -59,8 +84,6 @@ public class homeWorck {
             }  
             } 
             }
-        
-    
     static void ex2(){
         // перемножить числа от 1 до n
         System.out.println("Введите число n:= ");
